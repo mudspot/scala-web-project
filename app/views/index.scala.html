@@ -1,0 +1,13 @@
+@(sunInfo: model.SunInfo)
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home</title>
+        <link rel="shortcut icon" type="image/png"
+           href="@routes.Application.versioned("images/favicon.png")">
+    </head>
+    <body>
+        <h1>Hello Terry</h1>
+        <div>Sunrise is @{sunInfo.sunrise} and Sunset is @{sunInfo.sunset}</div>
+    </body>
+</html>
