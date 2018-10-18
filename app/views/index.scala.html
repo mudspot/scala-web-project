@@ -1,4 +1,4 @@
-@(sunInfo: model.SunInfo)
+@(sunInfo: model.SunInfo, temperature: model.WeatherInfo)
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -9,5 +9,6 @@
     <body>
         <h1>Hello Terry</h1>
         <div>Sunrise is @{sunInfo.sunrise} and Sunset is @{sunInfo.sunset}</div>
+        <div>Temperature is @{temperature.temperature}</div>
     </body>
 </html>
